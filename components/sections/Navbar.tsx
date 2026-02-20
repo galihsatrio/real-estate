@@ -18,9 +18,9 @@ export function Navbar() {
                   <Link href="#pages" className="hover:text-brand-dark transition-colors">Halaman</Link>
                </nav>
             </div>
-            <div className="flex items-center gap-2 sm:gap-4">
-               <Button variant="ghost" className="hidden sm:flex">Masuk</Button>
-               <Button variant="primary" className="px-4 py-2 text-xs sm:px-6 sm:py-3 sm:text-base">Mulai Sekarang</Button>
+            <div className="hidden sm:flex items-center gap-4">
+               <Button variant="ghost">Masuk</Button>
+               <Button variant="primary">Mulai Sekarang</Button>
             </div>
          </Container>
       </header>
